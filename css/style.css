@@ -7,9 +7,15 @@
      color: #070707;
  }
 
- a {
+ /* header */
+
+ .nav {
      text-decoration: none;
      color: #828282;
+ }
+
+ .nav:hover {
+     color: #070707;
  }
 
  hr {
@@ -46,7 +52,10 @@
      align-items: center;
  }
 
+ /* about me */
+ 
  .first-screen {
+     box-sizing: border-box;
      width: 100%;
      max-width: 970px;
      margin: 0 auto;
@@ -60,16 +69,16 @@
  }
 
  .about-me {
-    
+
      background: #F6F6F6;
  }
 
  .wrapper {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    margin: 0 auto;
-    max-width: 970px;
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     margin: 0 auto;
+     max-width: 970px;
  }
 
  .sub-title {
@@ -80,5 +89,186 @@
      width: 100%;
      max-width: 480px;
      text-align: center;
+     margin-bottom: 100px;
  }
 
+ .text-a {
+     margin: 0 auto;
+ }
+
+ .text-b {
+     margin: 30px auto;
+     text-align: center;
+     width: 405px;
+ }
+
+ .text-c {
+     width: 320px;
+     margin: 0 auto;
+     align-items: center;
+ }
+
+ /* skills */
+
+ .skills {
+     margin: auto;
+ }
+
+ .img-card {
+     width: 80px;
+     height: 80px;
+ }
+
+ .inner-skills {
+     margin: 100px 360px 50px 360px;
+     text-align: center;
+ }
+
+ .skills-card {
+     display: flex;
+     justify-content: space-around;
+     margin-bottom: 100px;
+ }
+
+ .card {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     text-align: center;
+     width: 170px;
+     height: 230px;
+ }
+
+ .card-text {
+     margin: 25px auto 60px;
+ }
+
+ .rating {
+     align-items: center;
+ }
+
+ .star {
+     width: 26px;
+     height: 26px;
+ }
+
+ /* portfolio */
+
+ .portfolio {
+     background-color: #F6F6F6;
+ }
+
+ .wrapper {
+     width: 100%;
+     max-width: 970px;
+     margin: auto;
+     text-align: center;
+ }
+
+ .reebok,
+ .braun,
+ .fashion {
+     margin-bottom: 40px;
+ }
+
+ .port-title {
+     margin: 100px auto 50px;
+ }
+
+ .reebok-store,
+ .braun-landing {
+     margin-top: 70px;
+ }
+
+ .braun-landing {
+     margin-bottom: 100px;
+ }
+
+ .fashion-link,
+ .reebok-link,
+ .braun-link {
+     color: #070707;
+ }
+
+ .fashion-link {
+     width: 200px;
+     text-align: center;
+ }
+
+ /* footer */
+
+ .footer {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+
+ .contacts {
+    margin: 100px auto;
+     width: 100%;
+     max-width: 970px;
+ }
+
+ .heading {
+     margin: 0 auto 60px;
+     text-align: center;
+     width: 280px;
+ }
+
+ .links {
+     margin: auto;
+ }
+
+ .social-group {
+     margin: auto;
+     width: 310px;
+     align-items: center;
+ }
+
+ .social {
+     box-sizing: border-box;
+     width: 40px;
+     height: 40px;
+ }
+
+ .social-list {
+     display: flex;
+     margin: auto;
+     padding: 0;
+     justify-content: space-around;
+ }
+
+ .social-list-link {
+     list-style-type: none;
+ }
+
+ .social-link {
+     text-decoration: none;
+ }
+
+ .btn {
+     display: flex;
+     flex-direction: row;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto 30px;
+     padding: 0;
+     width: 180px;
+     height: 44px;
+     background: #070707;
+     border: none;
+     border-radius: 22px;
+     font-weight: 700;
+     font-size: 18px;
+     line-height: 25px;
+     text-align: center;
+     letter-spacing: 0.1em;
+     color: #FFFFFF;
+ }
+
+ .inner-footer {
+    text-align: center;
+     margin: 60px auto 0;
+     width: 200px;
+     color: #828282;
+ }
