@@ -266,6 +266,11 @@
      color: #FFFFFF;
  }
 
+ .btn:hover {
+    background-color: #828282;
+    color: #070707;
+ }
+
  .inner-footer {
     text-align: center;
      margin: 60px auto 0;
