@@ -28,10 +28,10 @@
  }
 
  .header {
+     margin: 0 auto;
+     align-items: center;
      width: 100%;
      max-width: 970px;
-     align-items: center;
-     margin: auto;
  }
 
  .header-menu {
@@ -60,7 +60,6 @@
      max-width: 970px;
      margin: 0 auto;
      padding: 0;
-     gap: 50px;
  }
 
  .title {
@@ -69,7 +68,6 @@
  }
 
  .about-me {
-
      background: #F6F6F6;
  }
 
@@ -94,18 +92,17 @@
 
  .text-a {
      margin: 0 auto;
+
  }
 
  .text-b {
      margin: 30px auto;
-     text-align: center;
      width: 405px;
  }
 
  .text-c {
      width: 320px;
      margin: 0 auto;
-     align-items: center;
  }
 
  /* skills */
@@ -233,9 +230,9 @@
 
  .social-list {
      display: flex;
+     justify-content: space-around;
      margin: auto;
      padding: 0;
-     justify-content: space-around;
  }
 
  .social-list-link {
